@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Finance Tracker</title>
+    <!-- Use the non-minified version of Chart.js -->
+   <link rel="stylesheet" href="Home.css">
+</head>
+<body >
+<header><h2>Account Balances</h2> </header>
+    
+    <section class="balances">
+        
+        <img src="images/balance-10-64.png">
+        <label for="checking">Current Account:</label>
+        <input type="text" id="checking" placeholder="Enter balance">
+
+        <label for="savings">Savings Account:</label>
+        <input type="text" id="savings" placeholder="Enter balance">
+
+        <label for="creditCard">Credit Card:</label>
+        <input type="text" id="creditCard" placeholder="Enter balance">
+
+        <button onclick="saveBalances()">Save Balances</button>
+    </section>
+    <footer>
+        &copy; 2024 Personal Finance Tracker
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js/dist/Chart.js"></script>
+    <script src="Home.js" async></script>
+</body>
+</html>

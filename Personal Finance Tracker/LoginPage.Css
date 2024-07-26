@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('images/background.jpg');
+}
+
+
+.head1 {
+    text-align: center;
+    padding: 0;
+    position: relative;
+    top: -250px;
+    left: 140px;
+    
+
+}
+.img1{
+    
+    width: 200px;
+    height: 200px;
+}
+.login-container {
+    position: relative;
+    right: 250px;
+    top: 100px;
+    background-color: #8cdaf699;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.login-container button {
+    background-color: #5e5ee7;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+.Welcome{
+   text-align: center;
+   position: relative;
+   color: antiquewhite;
+   
+    
+}
+.Heading{
+    color: skyblue;
+}
+.phrase{
+    color:antiquewhite;
+}
+.color-change {
+    animation: changeColor 5s infinite; /* Change color every 5 seconds */
+}
+
+@keyframes changeColor {
+    0% { color: rgb(230, 246, 54); }
+    50% { color: rgb(210, 60, 60); }
+    100% { color: green; }
+}
